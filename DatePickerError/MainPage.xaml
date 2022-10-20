@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DatePickerError.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <DatePicker Date="02/25/2022" Format = "dd.mm.yyyy"/>
+            <DatePicker Date="02/25/2022" Format = "dd/mm/yyyy"/> 
+            <DatePicker Date="02/25/2022" Format = "mm/dd/yyyy"/> 
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
